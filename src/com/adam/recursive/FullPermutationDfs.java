@@ -5,15 +5,15 @@ import java.util.Arrays;
 /**
  * @author adam
  * 创建于 2018-03-05 19:38.
- * 用于解决全排列问题的主类。
+ * 用于解决全排列问题的主类,DFS。
  */
-public class FullPermutation {
+public class FullPermutationDfs {
 
     private final int maxNum;
     private int[] permutation;
     private int[] book;
 
-    public FullPermutation(int maxNum) {
+    public FullPermutationDfs(int maxNum) {
         this.maxNum = maxNum;
         this.permutation = new int[maxNum];
         this.book = new int[maxNum];
