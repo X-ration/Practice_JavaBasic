@@ -7,7 +7,8 @@ import java.io.InputStreamReader;
 /**
  * @author adam
  * 创建于 2018-03-06 09:32.
- * BufferedReader.
+ * Char Stream - Reader - BufferedReader
+ *                      - InputStreamReader
  */
 public class ReadFromConsole {
 
