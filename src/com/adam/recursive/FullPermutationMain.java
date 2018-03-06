@@ -8,7 +8,7 @@ package com.adam.recursive;
 public class FullPermutationMain {
 
     public static void main(String[] args) throws Exception {
-        FullPermutationDfs fullPermutation = new FullPermutationDfs(4);
+        FullPermutationDfs fullPermutation = new FullPermutationDfs(3);
         fullPermutation.dfs(0);
         //FullPermutationBfs fullPermutationBfs = new FullPermutationBfs(3);
     }
