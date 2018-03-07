@@ -1,0 +1,4 @@
+动态代理
+1. 设计数据库查询公共接口
+2. 设计真实的数据库查询类
+3. 设计用于动态创建代理类的InvocationHandler,并使用Proxy.newProxyInstance()方法获取代理类实例
